@@ -1,0 +1,49 @@
+"use strict";
+let number = 5;
+const leftBorderWidth = 1;
+
+number = 10;
+console.log(number);
+
+const obj = {
+    name: "John",
+    age: 25,
+    isMarried: false
+ };
+console.log(obj.name);
+
+"use strict"
+
+alert('Hellow');
+
+"use strict"
+const result = confirm("A?");
+console.log(result);
+
+const answer = +prompt("Вам есть 18", "18");
+console.log(answer + 5);
+
+const answers = [];
+
+answers[0] = prompt('Как ваше имя?', '');
+answers[1] = prompt('Как ваша фамилия?', '');
+answers[2] = prompt('Сколько вам лет?', '');
+
+document.write(answers);
+
+let i = 1;
+while (i<=30) {
+    document.write('Товар №' + i +'<br>');
+    i++;
+}
+
+alert('Hellow');
+
+'use strict';
+
+const category = 'toys';
+
+console.log(`https://samurl.com/${category}/5`);
+
+const user = 'Vano';
+alert(`Hellow, ${user}!`);
